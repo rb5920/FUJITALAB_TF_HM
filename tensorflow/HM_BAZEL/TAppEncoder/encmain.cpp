@@ -43,7 +43,7 @@
 //! \ingroup TAppEncoder
 //! \{
 
-#include "../Lib/TLibCommon/Debug.h"
+#include "TLibCommon/Debug.h"
 
 // ====================================================================================================================
 // Main function
