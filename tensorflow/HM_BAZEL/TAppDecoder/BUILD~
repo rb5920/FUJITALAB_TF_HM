@@ -1,0 +1,13 @@
+cc_binary(
+    name = "TAppDecoder",
+    srcs = ["decmain.cpp",
+			"TAppDecCfg.cpp",
+			"TAppDecTop.cpp"],
+    hdrs = ["TAppDecCfg.h",
+			"TAppDecTop.h"],
+	copts = ["-Itensorflow/HM_BAZEL"],
+	deps = ["//Lib/TLibDecoder:TLibDecoder",
+			"//Lib/TLibCommon:TLibCommon",
+			"//Lib/TLibVideoIO:TLibVideoIO",
+			"//Lib/TAppCommon:TAppCommon"],
+)

@@ -1,0 +1,11 @@
+
+#include "neural_cup.h"
+using namespace tensorflow;
+using namespace std;
+bool neural_cup(int* readinput) {
+
+  // Initialize a tensorflow session
+  
+  
+  return 0;
+}
